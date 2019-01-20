@@ -1,0 +1,24 @@
+img, input{
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+#logo {
+    height: 270;
+    width: 90;
+    padding-bottom: 30px;
+}
+
+#search-field {
+    size: 585;
+    border-radius: 3px;
+    width: 585px;
+    height: 45px;
+    box-shadow: 2px 2px 2px grey;
+    margin-bottom: 25px;
+}
