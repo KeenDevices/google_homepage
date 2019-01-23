@@ -1,33 +1,44 @@
 /******** here is where my styles start **********/
 
-div .logo {
-    display: block;
-    margin: auto;
+html, body, .logo {
+    height: 100%;
 }
 
-#logo {
+.logo {
+    justify-content: center;
+}
+
+.logo #google-logo {
+    display: block;
     height: 270;
     width: 90;
-    padding-bottom: 30px;
+    margin: 0 auto;
 }
 
-#search-field {
-    size: 585;
-    border: 1px solid silver;
-    border-radius: 3px;
+.search-container{
+    display: block;
     width: 585px;
     height: 45px;
+    border: 1px solid silver;
+    border-radius: 3px;
     box-shadow: 1px 1px 1px silver;
-    margin-bottom: 25px;
+    margin: 0 auto;
 }
 
-.buttons {
+.logo #search-field {
+    size: 585;
+    border: none;
+    width: 475px;
+    height: 45px;    
+}
+
+/*.buttons {
     color: rgb(121, 121, 121);
     margin-right: 15px;
     font-size: 12px;
     padding: 12px 15px;
     /*color: #434343;*/
-    background-color: #F6F6F6;
+    /*background-color: #F6F6F6;
     border: none;
     font-family: arial, sans-serif;
 }
@@ -35,4 +46,4 @@ div .logo {
 .buttons:hover {
     color: rgb(75, 75, 75);
     border: 1px solid rgb(75, 75, 75));
-}
+} */
